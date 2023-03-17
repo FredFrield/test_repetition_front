@@ -1,0 +1,121 @@
+body {
+    font-size: 1.1em;
+    /*background-color: aliceblue;*/
+    /*background-image: url("/img/uniswap-uni-logo.svg");*/
+    /*background-repeat: repeat-y;*/
+    /*background-position: right;*/
+
+    background-size: 100px;
+    background: aliceblue url("/img/uniswap-uni-logo.svg") no-repeat fixed center top;
+}
+
+p, div p {
+    color: blue;
+    background-color: cornsilk;
+}
+
+div {
+    margin: 20px 0;
+}
+
+div.div {
+    margin-left: 10px;
+}
+
+#div-id {
+    background-color: darkred;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 0 10px;
+}
+div p {
+    color: aqua;
+}
+
+a.link {
+    color: red;
+    text-decoration: none;
+}
+
+a.link:hover {
+    color: darkred;
+    text-decoration: overline;
+    text-decoration-color: blue;
+}
+
+.border:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.border:active {
+    text-decoration: line-through;
+}
+
+a.link:visited {
+    color: darkorange;
+}
+
+input {
+    color: blue;
+}
+
+input:focus {
+    color: red;
+}
+
+input:disabled {
+    color: cornflowerblue;
+}
+
+div.text:empty {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+div.text:not(empty) {
+    color: tan;
+}
+
+#some-id::after {
+    content: 'Cool';
+    color: cornflowerblue;
+}
+
+div.text:not(empty)::before {
+    content: attr(data-title);
+}
+
+body div:first-letter {
+    color: lime;
+    font-size: 1.5em;
+}
+
+body div.div::first-line {
+    font-size: 1.2em;
+}
+
+div:first-of-type {
+    text-decoration: line-through;
+}
+
+div:last-of-type {
+    background-color: saddlebrown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
