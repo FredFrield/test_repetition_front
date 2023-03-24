@@ -54,10 +54,11 @@ body {
 }
 
 #first {
-    float: left;
+    float: right;
 }
 
 #second {
+    float: left;
     background: blue;
 }
 
