@@ -9,6 +9,21 @@ body {
     font-size: 18px;
 }
 
+#some_block {
+    background: red;
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    /*position: absolute;*/
+    position: fixed;
+    left: 20px;
+    top: 45px;
+}
+
 #header, #footer {
     width: 100%;
     height: 70px;
@@ -46,4 +61,5 @@ body {
     float: left;
     position: relative;
     top: -10px;
+    left: -20px;
 }
