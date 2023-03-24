@@ -51,15 +51,44 @@ body {
     border: 1px solid silver;
     padding: 20px 2.5%;
     float: left;
+
+    position: relative;
+    z-index: 1;
 }
 
 #aside {
     width: 20%;
     padding: 20px 2.5%;
     margin-left: 5%;
+    background: #fafafa;
     border: 1px solid silver;
     float: left;
     position: relative;
     top: -10px;
-    left: -20px;
+    left: -100px;
+    z-index: 0;
 }
+
+#nav {
+    list-style: none;
+    display: block;
+
+}
+#nav li {
+    display: inline;
+    background: #fafafa;
+    border: 1px solid silver;
+    padding: 5px 20px;
+    color: #000;
+    cursor: pointer;
+}
+#nav li:hover {
+    color: darkblue;
+    background: lightgray;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+#nav li:not(:last-of-type) {
+    margin-right: 10px;
+}
+
